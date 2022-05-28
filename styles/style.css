@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    padding: 65px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: #07043B;
+    text-decoration: none;
+    margin-left: 57px;
+}
+
+.herosection {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.herosection .image img {
+    width: 640px;
+    height: 474px;
+
+}
+
+
+.hero h1 {
+    width: 627px;
+    font-size: 40px;
+}
+
+.herosection .hero p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    width: 570px;
+
+}
+
+.herosection .hero button {
+    background-color: #2F65F8;
+    color: white;
+    border: 0 solid #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    width: 200px;
+    height: 45px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-left: 14px;
+    cursor: pointer;
+
+}
+
+.hero button:hover {
+    background-color: #575988;
+}
+
+.herosection .hero input {
+    border: 0.625px solid #07043B;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    width: 320px;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 19px;
+    font-size: 14px;
+}
+
+.productive {
+    padding: 80px;
+    background-image: url(/images/Rectangleback.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    padding-right: 209px;
+}
+
+.content h1 {
+    font-weight: 700;
+}
+
+.content p {
+    font-family: 'Open Sans', sans-serif;
+    width: 529px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.productive .illustr img {
+    Width: 542px;
+    Height: 409px;
+}
+
+.content a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3DA08F;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content a::after {
+    content: '';
+    position: absolute;
+    background: #3DA08F;
+    height: 1px;
+    width: 100%;
+    top: 100%;
+
+}
+
+
+.content .qwe {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+    border-radius: 5px;
+    height: 215px;
+    width: 356px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    color: #07043B;
+    margin-top: 45px;
+    padding: 34px;
+}
+
+.content .testiomal {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+}
+
+.content .Kyle {
+    height: 32px;
+    width: auto;
+    left: 33px;
+    top: 157px;
+    border-radius: 0px;
+    display: flex;
+
+
+}
+
+
+
+.Kyle h7 {
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.550000011920929px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.sectionthree {
+    background: #575988;
+    height: 369.7149658203125px;
+    width: auto;
+
+
+}
+
+.sectionthree {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sectionthree .CTA {
+    width: 480px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstCTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.CTAform input {
+    background: #FFFFFF;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 3.125px;
+    height: 48px;
+    width: 480px;
+    padding: 22px;
+    border: #FFFFFF;
+
+}
+
+.CTAform button {
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 3.125px;
+    color: #FFFFFF;
+    height: 48px;
+    width: 200px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.CTAform button:hover {
+
+    background-color: #67bfef;
+}
+
+
+.footer {
+    background: #07043B;
+    color: #FFFFFF;
+    display: flex;
+    height: 391px;
+    justify-content: space-between;
+
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+.footer .footerd1 {
+    padding: 92px 80px;
+    margin: 36px;
+
+}
+
+.footer .footerd1 span {
+    margin-left: 16px;
+}
+
+.footer .footerd2,
+.footerd3 {
+    padding-top: 160px;
+    margin: 36px;
+
+}
+
+.footer .footerd4 {
+    padding-top: 200px;
+    padding-right: 250px;
+
+}
+
+.footer .footerd4 a {
+
+    margin-right: 10px;
+}
+
+#founter {
+    display: flex;
+    flex-wrap: no-wrap;
+}
